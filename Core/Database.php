@@ -6,9 +6,9 @@ use PDO;
 class Database {
 
     static $host = "localhost";
-    static $name = "totalsalud";
+    static $name = "DBNAME";
     static $password = "";
-    static $user = "admin";
+    static $user = "USERDB";
     static $connect;
 
     static function connect() {
