@@ -5,5 +5,3 @@ use Core\App;
 
 new App();
 
-
-

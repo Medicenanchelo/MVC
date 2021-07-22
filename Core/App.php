@@ -7,7 +7,7 @@ class App
     function __construct()
     {
         $this->issetLog();
-        $this->Route();
+        $this->route();
         $this->preLoad();
     }
 
@@ -16,7 +16,7 @@ class App
         Session::firstPass();   
     }
 
-    private function Route(){
+    private function route(){
         Route::getUrl();   
     }
 

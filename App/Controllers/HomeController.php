@@ -1,4 +1,4 @@
-<?php namespace Controllers;
+<?php namespace App\Controllers;
 
 use Core\Controller;
 
@@ -9,6 +9,7 @@ class Home extends Controller{
     }
 
     public function index(){
-        echo "index de Home";
+        echo "Index Controlador Home: LISTO!! <br>";
+        $this->view->getView('index');
     }
 }
