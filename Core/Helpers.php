@@ -2,7 +2,7 @@
 
 class Helper{
 
-    private BASE_URL = ""
+    private BASE_URL = "";
     
     public function getUrl(){
 
